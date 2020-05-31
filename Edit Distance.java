@@ -34,12 +34,13 @@ class Solution {
                         1 + ed(m, n-1) => add - add 1 char and delete
                     )
                     
-                      |r|o|s|
-                    h |0|1|2|
-                    o |1| | |
-                    r |2| | |
-                    s |3| | |
-                    e |4| | |                   
+                         r o s
+                      |0|1|2|3| 
+                    h |1| | | |
+                    o |2| | | |
+                    r |3| | | |
+                    s |4| | | |
+                    e |5| | | |
     */
     public int minDistance(String word1, String word2) {
         int m = word1.length();
